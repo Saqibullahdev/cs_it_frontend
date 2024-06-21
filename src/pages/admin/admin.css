@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+}
+.App {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100%;
+     background-color: #0e0a2b;
+     font-family: 'Montserrat', sans-serif;
+   }
+   
+   .login-card {
+     background-color: #fff;
+     padding: 50px 70px;
+     margin-bottom: 200px;
+     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+     border-radius: 5px;
+   }
+   
+   .login-form {
+     text-align: center;
+   }
+   
+   .login-form h2 {
+     margin-bottom: 20px;
+   }
+   
+   .form-group {
+     margin-bottom: 20px;
+   }
+   
+   label {
+     display: block;
+     font-weight: bold;
+     margin-bottom: 5px;
+   }
+   
+   input[type="text"],
+   input[type="password"] {
+     width: 100%;
+     padding: 10px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     font-size: 16px;
+   }
+   
+   .logIn {
+     background-color: #007bff;
+     color: #fff;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     font-size: 16px;
+     cursor: pointer;
+     transition: background-color 0.3s;
+   }
+   
+   button:hover {
+     background-color: gold;
+     color: black;
+   }
+   
+   .error {
+     color: red;
+     margin-top: 10px;
+   }
+   

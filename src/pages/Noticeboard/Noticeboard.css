@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+.noticeboardSection input[type="text"]{
+    width: 50%;
+    padding: 8px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin: auto;
+    display: flex;
+}
+.search-center  {
+    padding-top: 40px;
+}
+.noticeboardSection{
+    background-color: #0e0a2b;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+
+    .carasolUpperdiv{
+        
+        padding-bottom: 7rem;
+           font-family: 'Montserrat', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 90vh;
+    }
+    .card-title{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-size:20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .card{
+        cursor: pointer;
+    }
+    .card-text {
+        text-align: center;
+    }
+   .card-body{
+    align-items: center;
+    text-align: center;
+   }
+    .Download{
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        border-radius: 7px;
+    }
+    .Download:hover{
+        color: white;
+    }
+    .linkcard{
+        text-decoration: none;
+        color: black;
+        transition: 0.2s all ease;
+        border: 1px solid gold;
+    }
+    .linkcard:hover{
+        color: black;
+        background-color:#f7be1e;
+        border-style: none;
+        border: none;
+    }
+    button.rec-dot{
+        background-color: #f7be1e;
+        /* box-shadow: 0 0 1px 3px rgba(235, 16, 16, 0.5); */
+        margin-top: 20px;
+        border: 2px solid yellow;
+      }
+      
+      button.rec-dot:hover, button.rec-dot:active, button.rec-dot:focus  {
+        box-shadow: 0 0 1px 3px rgba(235,16,16,0.5);
+      }
+
+
+    .spicificNotifationDiv{
+        background-color: #0e0a2b;
+        padding: 4rem;
+    }
+    .innterDivnotif{
+        background-color: white;
+        border-radius: 20px;
+        padding-bottom: 2rem;
+    }
+    .titlediv{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+        padding: 30px 0px;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .notifiDescription{
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+        font-size: 1rem;
+        text-align: left;
+        letter-spacing: 1px;
+    }
+    .upperDivforbtnandTitle{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+
+      
+    .search-bar:focus {
+    border-color: dodgerblue;
+    }
+
+    @media screen and (max-width: 900px) {
+        .card-body{
+            margin: 10px 30px;
+        }
+        .upperDivforbtnandTitle{
+            flex-direction: column;
+            
+            
+        }
+        .upperDivforbtnandTitle button{
+            margin-top: 20px;
+        }
+        .spicificNotifationDiv{
+            padding: 1rem;
+        }
+        
+    }

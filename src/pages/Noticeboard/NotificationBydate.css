@@ -1,0 +1,14 @@
+.notification-card {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .notification-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-title,
+  .card-date {
+    margin: 0;
+  }
+  

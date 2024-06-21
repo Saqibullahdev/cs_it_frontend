@@ -1,0 +1,30 @@
+/* Add this CSS to your existing styles or create a separate CSS file */
+.faq-container {
+  width: 80%;
+  margin: auto;
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+  border: 1px solid whitesmoke;
+  padding: 10px;
+  border-radius: 7px;
+  cursor:default;
+  color: #f7be1e;
+}
+
+.answer {
+
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+  padding: 10px;
+
+  color: #f7be1e;
+}
+
+.active {
+  max-height: 1000px; /* Adjust this value as needed */
+}
+   

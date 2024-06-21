@@ -1,0 +1,72 @@
+.item1Content {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.item1Content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.item1Content label {
+  font-weight: bold;
+}
+
+.item1Content .form-group {
+  margin-bottom: 10px;
+}
+
+.item1Content input[type="text"],
+.item1Content input[type="file"]{
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+/* Style for the description textarea */
+.description-textarea {
+  width: 100%; /* Set the width to 100% to match other input fields */
+  height: 100px; /* Set the desired height */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+
+/* Set the description textarea to a fixed height of 30% of the container height */
+.item1Content textarea#eventDescription {
+  height: 30%;
+}
+
+.item1Content button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.item1Content button:hover {
+  background-color: #0056b3;
+}
+
+.item1Content hr {
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Highlight{
+  background-color: gold;
+  color: black;
+  
+}

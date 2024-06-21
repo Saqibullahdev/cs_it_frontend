@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+.contactSection{
+    background-color: #0e0a2b;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1px 4rem;
+    color: white;
+}
+.imageDivContact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 2rem 0px;
+    
+}
+.imageDivContact img{
+    width: 300px;
+}
+.sendLink{
+    text-decoration: none   ;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+.sendLink:hover{
+    color: gray;
+}
+
+@media screen and (max-width: 800px) {
+    .contactSection{
+        padding: 1rem;
+        
+    }
+    .imageDivContact img{
+        width: 150px;
+    }
+    
+}
+

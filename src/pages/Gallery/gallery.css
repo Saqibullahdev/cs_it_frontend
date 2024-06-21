@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+.gallerySection{
+    background-color: #0e0a2b;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2rem;
+}
+
+.galleryComp{
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+}
+
+.imageDivUpper{
+    width: 200px;
+    padding: 3px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.flexRow{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+.flexRowdiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.imageDivUpper img{
+    width: 350px;
+    border-radius: 10px;
+    height: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    opacity: 0.8;
+    transition: 0.3s all ease-out;
+}
+.mb-0{
+  margin-bottom: 0px;
+}
+
+.imageDivUpper img:hover{
+    opacity: 1;
+}
+.textContainer{
+  width: 50%;
+}
+.imageContainer{
+  width: 50%;
+}
+.eventName{
+    color: #f7be1e;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.eventDescription{
+    color: #f7be1e;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+.pd-20{
+  padding: 20px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .gallerySection{
+        padding: 1rem;
+    }
+    .imageDivUpper{
+        width: 100%;
+       
+    }
+    
+}

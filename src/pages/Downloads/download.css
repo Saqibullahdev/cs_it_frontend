@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+.downloadsection{
+     background-color: #0e0a2b;
+     font-family: 'Montserrat', sans-serif;
+    padding: 1rem 4rem;
+    color: white;
+
+}
+.downloadtitle{
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    word-spacing: 1px;    
+}
+.downloadButtonDiv{
+    padding: 1rem
+}
+.downloadButtonDiv button{
+    padding: 10px 30px;
+    background-color: #f7be1e;
+    font-family: 'Montserrat', sans-serif;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 500;
+  width: 400px;
+}
+
+.forms{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.form-item{
+    padding-top: 20px;
+    margin-bottom: 20px;
+}

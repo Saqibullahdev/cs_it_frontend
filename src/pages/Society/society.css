@@ -1,0 +1,12 @@
+.img-center{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.color-gold{
+    color: gold;
+}
+.color-white{
+    color: white;
+}
